@@ -12,6 +12,8 @@ mod non_zero_integers;
 mod optional;
 mod string;
 
+#[cfg(feature = "bigdecimal")]
+mod bigdecimal;
 #[cfg(feature = "bson")]
 mod bson;
 #[cfg(feature = "chrono-tz")]
